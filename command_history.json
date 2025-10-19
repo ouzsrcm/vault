@@ -1,0 +1,20 @@
+[
+  {
+    "id": 23,
+    "command": "ls",
+    "response": "README.md\ndist\nnode_modules\npackage-lock.json\npackage.json\nsrc\ntsconfig.json\n",
+    "created_at": "2025-10-19T08:25:08.000Z"
+  },
+  {
+    "id": 24,
+    "command": "ls",
+    "response": "README.md\ndist\nnode_modules\npackage-lock.json\npackage.json\nsrc\ntsconfig.json\n",
+    "created_at": "2025-10-19T08:27:14.000Z"
+  },
+  {
+    "id": 25,
+    "command": "cat README.md",
+    "response": "# ⚙️ Vault CLI\r\n\r\n**Vault** — Node.js + TypeScript tabanlı, SQLite destekli bir **komut geçmişi yöneticisi**.  \r\nTerminalde çalıştırdığın komutları kaydeder, geçmişi listeler ve dilediğin komutu tekrar çalıştırmanı sağlar.  \r\nKısacası: kişisel komut geçmişi asistanın. 🚀\r\n\r\n---\r\n\r\n## 📦 Özellikler\r\n\r\n- 💾 Çalıştırılan tüm komutları SQLite veritabanına kaydeder  \r\n- 📜 `vault history` ile geçmişi listeler  \r\n- 🔁 `vault run <id>` ile geçmişteki komutu yeniden çalıştırır  \r\n- 🧹 `vault clear` ile geçmişi temizler  \r\n- 👤 Her kullanıcı için ayrı geçmiş tutar (`os.username` tabanlı)  \r\n- 🧠 TypeScript + better-sqlite3 + Clean Architecture yapısında geliştirilmiştir  \r\n\r\n---\r\n\r\n## 🧰 Kurulum\r\n\r\n### 1️⃣ Depoyu klonla\r\n```bash\r\ngit clone https://github.com/ouzsrcm/vault-cli.git\r\ncd vault-cli\r\n",
+    "created_at": "2025-10-19T08:28:05.000Z"
+  }
+]
