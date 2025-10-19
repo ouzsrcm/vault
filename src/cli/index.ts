@@ -79,16 +79,24 @@ async function main() {
             console.log(`
     Available commands:
     -------
-    show-history          - Show command history
-    search-term <term>    - Search command history
-    rerun <id>            - Rerun a command by ID
-    export-as [format]    - Export command history
-    help                  - Show this help message
-    version               - Show CLI version
-    categories            - List all categories
-    pick                  - Pick a command from history to run
-    run-last              - Run the last executed command
-    clear-history        - Clear command history
+    History Management:
+    show-history           - Show command history
+    search-term <term>     - Search command history
+    rerun <id>             - Rerun a command by ID
+    export-as [format]     - Export command history
+    pick                   - Pick a command from history to run
+    run-last               - Run the last executed command
+    clear-history          - Clear command history
+
+    Category Management:
+    categories               - List all categories
+    create-category <name>   - Create a new category
+    set-default-category <id> - Set a category as default by ID
+
+    Other:
+    help                   - Show this help message
+    version                - Show CLI version
+    -------
     `)
             break
         case 'version':
