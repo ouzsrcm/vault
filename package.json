@@ -1,5 +1,5 @@
 {
-  "name": "vault",
+  "name": "personal-vault-cli",
   "version": "1.0.0",
   "type": "commonjs",
   "bin": {
@@ -19,5 +19,9 @@
   "dependencies": {
     "better-sqlite3": "^12.4.1",
     "inquirer": "^12.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouzsrcm/vault.git"
   }
 }
