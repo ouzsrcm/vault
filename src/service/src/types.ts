@@ -21,3 +21,7 @@ export class Category {
         this.name = name;
     }
 }
+
+export type CountResult = {
+    Count: number;
+};
