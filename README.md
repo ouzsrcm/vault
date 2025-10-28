@@ -38,6 +38,16 @@ Tüm veriler sadece senin cihazında saklanır.
 
 ---
 
+| 🌐 **Vault API (Service)** | `GET /api/health` | Servis durumu |
+| | `GET /api/history` | Tüm geçmiş kayıtlarını döner (sayfalama + arama destekli) |
+| | `POST /api/history/rerun/:id` | Komutu yeniden çalıştırır |
+| | `DELETE /api/history/:id` | Komutu siler |
+| | `GET /api/categories` | Kategorileri listeler |
+| | `POST /api/categories` | Yeni kategori oluşturur |
+| | `POST /api/categories/default/:id` | Varsayılan kategoriyi değiştirir |
+| | `GET /api/export?format=json|csv` | Geçmişi dışa aktarır |
+| | `POST /api/import` | Dışarıdan JSON/CSV içe aktarır |
+
 ## 📦 Kurulum
 
 ### Gereksinimler
@@ -51,3 +61,4 @@ cd vault-cli
 npm install
 npm run build
 npm link
+npm run runall
